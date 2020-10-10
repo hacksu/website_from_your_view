@@ -3,6 +3,38 @@ body{
 }
 
 button{
-    background:green;
     border:none;
+}
+.content{
+    position: absolute;
+    top: 34%;
+    left:46%
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30;
+    font-weight: bold;
+}
+.button a{
+    background:black;
+    color: red;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    top: 0px;
+    left: 61px;
+    position: relative;
+}
+.button a:hover{
+    background: red;
+    color:black;
+}
+.photo{
+    height:100%;
+    width: 100%;
+    justify-content: center;
 }
